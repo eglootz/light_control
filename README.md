@@ -2,7 +2,7 @@
 
 In diesem Ordner bewahre ich alle Dateien auf, welche im Zusammenhang mit meinem eingereichten Jugend-Forscht-Projekt stehen.
 
-### Verwendung
+### Voraussetzungen
 Um die Dateien in ihrem Ursprung auszutesten, muss man zusätzlich eine Datei namens credentials.py anlegen, in welcher man benötigte Login-Daten und Schüssel einspeichert. Diese werden anschließend in jeder Datei importiert. Ich habe meine Daten aus Sicherheitsgründen nur lokal gespeichert.
 Zu den benötigten Daten zählen u.a.:
 
@@ -21,3 +21,12 @@ ip_adress = IP-Adresse der Brücke
 user = Nutzername
 #### OPENAI API
 openai_api_key = Schlüssel der KI
+
+#### Installierte packages
+Es muss nur das Open-AI-Paket installiert sein:
+- pip install openai
+
+### Dateien und ihre Bedeutung
+- light_gui.py — manuelle Lichtersteuerung
+- automatic_lights.py — Alarmanlage
+- intelligente_beleuchtung.py — Steuerung unter Einbezug der KI
