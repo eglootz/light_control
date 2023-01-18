@@ -12,15 +12,15 @@ Zu den benötigten Daten zählen u.a.:
 - sender_email = Email des Senders
 - receiver_email = Email des Empfängers
 #### Twitter API
-api_key = API-Schlüssel
-api_secrets = API-Secret
-access_token = Zugriffstoken
-access_secret = Zugriffscode
+- api_key = API-Schlüssel
+- api_secrets = API-Secret
+- access_token = Zugriffstoken
+- access_secret = Zugriffscode
 #### HUE API
-ip_adress = IP-Adresse der Brücke
-user = Nutzername
+- ip_adress = IP-Adresse der Brücke
+- user = Nutzername
 #### OPENAI API
-openai_api_key = Schlüssel der KI
+- openai_api_key = Schlüssel der KI
 
 #### Installierte packages
 Es muss nur das Open-AI-Paket installiert sein:
