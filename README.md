@@ -22,7 +22,7 @@ Zu den benötigten Daten zählen u.a.:
 #### OPENAI API
 - openai_api_key = Schlüssel der KI
 
-#### Installierte packages
+### Installierte packages
 Es muss nur das Open-AI-Paket installiert sein:
 - pip install openai
 
